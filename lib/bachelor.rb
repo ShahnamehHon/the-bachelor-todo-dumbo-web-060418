@@ -48,4 +48,6 @@ def get_average_age_for_season(data, season)
   data[season].each do |key, value|
     age += key["age"].to_f
     counter += 1
+  end
+  
 end
